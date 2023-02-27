@@ -1,0 +1,115 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/*--------------------------------Input field--------------------------------------------------*/
+#tech_input {
+    color: grey;
+
+    height: 30px;
+    width: 250px;
+
+    border-radius: 5px;
+}
+
+#tech_input:focus {
+    border-color: rgb(151, 0, 0);
+    outline: none;
+}
+
+/*-------------------------------buttons---------------------------------------------------*/
+
+#add_button {
+    color: rgb(151, 0, 0);
+    font-weight: bold;
+
+    border-color: rgb(151, 0, 0);
+    border-width: 1px;
+    border-radius: 5px;
+
+    background-color: rgba(255, 120, 120, 0.273);
+
+    height: 35px;
+    width: 90px;
+
+    margin-left: 40px
+}
+
+#add_button:hover {
+    color: white;
+    background-color: rgb(151, 0, 0);
+}
+
+#remove_button {
+    background: none;
+    border: none;
+
+    margin: 0;
+    padding: 0;
+
+    cursor: pointer;
+
+    text-decoration-line: underline;
+    color: rgb(211, 0, 0);
+
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+/*----------------------------------containers------------------------------------------------*/
+
+body {
+    margin: 100px;
+}
+
+header {
+    margin-left: 100px;
+}
+
+#button_container {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#display-container {
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+    /*-----------------------------------inner display-----------------------------------------------*/
+
+#main_display {
+    display: flex;
+
+    text-align: center;
+    font-size: 27px;
+    line-height: 25px;
+}
+
+#main_display_1 {
+    flex: 1;
+    margin-right: 17px;
+}
+
+#main_display_2 {
+    flex: 1;
+}
+
+.boxed-text {
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+    font-weight: bold;
+    font-size: 25px;
+
+    box-shadow: 1px 2px 5px #ccc;
+    line-height: 40px;
+    margin-bottom: 20px;
+
+}

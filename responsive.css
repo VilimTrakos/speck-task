@@ -1,0 +1,49 @@
+@media screen and (max-width: 640px) {
+
+    /*-------------------------------input field---------------------------------------------------*/
+    #tech_input {
+        font-size: x-large;
+        height: 55px;
+        width: 380px;
+    
+        margin-left: 40px;
+    }
+    
+    /*-------------------------------buttons---------------------------------------------------*/
+    
+    #add_button {
+        font-size: x-large;
+
+        border-width: 2px;
+
+        height: 55px;
+        width: 150px;
+    
+        margin-top: 10px
+    }
+    
+    #remove_button {
+        font-size:x-large;      
+    
+        margin-top: 25px;
+        margin-right: 40px;        
+    }
+    
+    /*----------------------------------containers------------------------------------------------*/ 
+    
+    body {
+        margin: 0px;
+    }
+    
+    #button_container {
+        margin-top: 40px;
+        margin: auto;
+    }
+    
+    #display-container {
+        margin: auto;
+        margin-top: 50px;
+       
+    }
+    
+}
